@@ -23,3 +23,4 @@ Route::get('/crm', 'StaticPagesController@crm')->name('crm');
 
 
 Route::get('signup', 'UsersController@create')->name('signup');
+Route::resource('users', 'UsersController');
