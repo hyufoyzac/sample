@@ -42,6 +42,14 @@ h1{
    line-height: 1.7em;
  }
 
+
+
+
+
+
+
+
+
  /* header*/
 .navbar-inverse{
   background-color: $navbar-color;
@@ -59,6 +67,17 @@ h1{
     color: #fff;
   }
 }
+
+/* logout */
+#logout{
+  cursor: default;
+  &:hover{
+    background-color: transparent;
+  }
+}
+
+
+
 
 
 
@@ -154,3 +173,6 @@ input{
 .panel{
   margin-top: 50px;
 }
+
+
+
